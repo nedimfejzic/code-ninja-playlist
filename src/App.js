@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <Header></Header>
         <Switch>
           <Route exact path='/'><Home/></Route>

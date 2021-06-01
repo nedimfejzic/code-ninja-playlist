@@ -15,7 +15,7 @@ export const BlogList = ({ blogs }) => {
                   {blog.body.length > 150 ? (
                     <>
                       {`${blog.body.substring(0, 150)}...  `}
-                      <span className="font-extralight text-sm">Read more</span>
+                      <span className="font-extralight text-sm hover:text-green-900">Read more</span>
                     </>
                   ) : (
                     <>{blog.body}</>
