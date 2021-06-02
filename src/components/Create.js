@@ -36,13 +36,7 @@ export const Create = () => {
   };
 
   return (
-    <div className="mx-8">
-
-
-
-
-
-
+    <div className="">
 
 
       <div class="bg-green-900">

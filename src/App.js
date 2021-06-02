@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <div className="container mx-auto">
+      <div className="container mx-auto lg:max-w-4xl">
         <Header></Header>
         <Switch>
           <Route exact path='/'><Home/></Route>
